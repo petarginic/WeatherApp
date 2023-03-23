@@ -2,37 +2,154 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.newsletter-subscribe {
+  color:#313437;
+  background-color:#fff;
+  padding:50px 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.newsletter-subscribe p {
+  color:#7d8285;
+  line-height:1.5;
+}
+
+.newsletter-subscribe h2 {
+  font-size:24px;
+  font-weight:bold;
+  margin-bottom:25px;
+  line-height:1.5;
+  padding-top:0;
+  margin-top:0;
+  color:inherit;
+}
+
+.newsletter-subscribe .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 25px;
+}
+
+.newsletter-subscribe .intro p {
+  margin-bottom:35px;
+}
+
+.newsletter-subscribe .temp {
+  justify-content:center;
+}
+
+.newsletter-subscribe .temp .form-control {
+  background:#eff1f4;
+  border:none;
+  border-radius:3px;
+  box-shadow:none;
+  outline:none;
+  color:inherit;
+  text-indent:9px;
+  height:45px;
+  margin-right:10px;
+  min-width:250px;
+}
+
+.newsletter-subscribe .temp .btn {
+  padding:16px 32px;
+  border:none;
+  background:none;
+  box-shadow:none;
+  text-shadow:none;
+  opacity:0.9;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:13px;
+  letter-spacing:0.4px;
+  line-height:1;
+}
+
+.newsletter-subscribe .temp .btn:hover {
+  opacity:1;
+}
+
+.newsletter-subscribe .temp .btn:active {
+  transform:translateY(1px);
+}
+
+.newsletter-subscribe .temp .btn-primary {
+  background-color:#055ada !important;
+  color:#fff;
+  outline:none !important;
+}
+
+.main {
+  width: 100vw;
+  margin: 10rem;
+}
+
+
+.fog {
+  cursor: pointer;
+  border-radius: 10px;
+  color:white;
+  background: #1D976C;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 200px;
+  width: 400px;
+}
+
+.sun {
+  cursor: pointer;
+  border-radius: 10px;
+  background: #2193b0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-weight: 700;
+  color:white;
+  height: 200px;
+  width: 400px;
   }
+
+.rain {
+  cursor: pointer;
+  border-radius: 10px;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,11,185,1) 100%, rgba(0,212,255,1) 100%);
+  color:white;
+  font-weight: 700;
+  height: 200px;
+  width: 400px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.cloud {
+  background: #FDC830;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F37335, #FDC830);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F37335, #FDC830); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-weight: 700;
+  border-radius: 10px;
+  color:white;
+  height: 200px;
+  width: 400px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.thunder {
+  background: #4e54c8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius: 10px;
+  color:white;
+  font-weight: 700;
+  height: 200px;
+  width: 400px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.snow {
+  background: #8e9eab;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: 10px;
+  color:white;
+  font-weight: 700;
+  height: 200px;
+  width: 400px;
 }
+
